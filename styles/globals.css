@@ -8,3 +8,29 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+
+/* Header */
+.app__navbar {
+  margin: 0 auto;
+  padding: 2rem 2rem;
+}
+
+.app__navbar-links {
+  flex: 1;
+}
+
+.app__navbar-links li {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.app__navbar-login svg {
+  cursor: pointer;
+}
+
+.app__navbar-smallscreen_links li {
+  margin: 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+  text-align: center;
+}

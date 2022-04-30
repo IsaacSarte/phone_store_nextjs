@@ -1,10 +1,11 @@
 import Head from "next/head";
 
-import Link from "next/link";
-
 /* Components */
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import {
+  Header,
+  Main,
+  Footer
+} from "../components";
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
       
     {/* Header */}
     <Header />
+
+    {/* Main */}
+    <Main />
 
     {/* Footer */}
     <Footer />
