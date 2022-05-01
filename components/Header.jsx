@@ -15,13 +15,13 @@ const Header = () => {
 
     return (
         <div className="bg-[#1F252E] w-full">
-            <nav className="app__navbar w-full flex justify-between items-center max-w-7xl custom:max-w-full">
+            <nav className="app__navbar w-full flex justify-between items-center max-w-[100rem] custom:max-w-full">
                 <div className="app__navbar-logo text-white flex justify-start items-center">
                     <a href="/" className="text-2xl font-bold tracking-wide">
                         Phone Store
                     </a>
                 </div>
-                <ul className="app__navbar-links text-white font-semibold flex justify-center items-center list-none custom:hidden sm:hidden md:hidden lg:flex xl:flex 2xl:flex">
+                <ul className="app__navbar-links text-white text-xl font-semibold flex justify-center items-center list-none custom:hidden sm:hidden md:hidden lg:flex xl:flex 2xl:flex">
                     <li className="p__opensans"><a href="/">Collections</a></li>
                     <li className="p__opensans"><a href="#brand">Brand</a></li>
                     <li className="p__opensans"><a href="#new">New</a></li>

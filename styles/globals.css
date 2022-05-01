@@ -24,7 +24,8 @@
   cursor: pointer;
 }
 
-.app__navbar-login svg {
+.app__navbar-login svg,
+.order__btn svg {
   cursor: pointer;
 }
 
