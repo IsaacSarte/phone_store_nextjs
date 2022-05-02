@@ -11,6 +11,9 @@ import { RiShoppingBagFill } from "react-icons/ri";
 
 /* Components */
 import Collections from './subComponents/Collections';
+import Brands from './subComponents/Brands';
+import Reviews from './subComponents/Reviews';
+import Footer from './Footer';
 
 const Main = () => {
 
@@ -38,7 +41,7 @@ const Main = () => {
                     </div>
                     {/* middle */}
                     <div className="custom:mt-8">
-                        <div className="w-[200px] py-8 bg-gray-200 text-center rounded-[1.5rem] mb-4 custom:block absolute z-10 right-5 -mt-8 w-[150px] py-4 sm:block md:hidden lg:hidden xl:hidden 2xl:hidden">
+                        <div className="w-[200px] py-8 bg-gray-200 text-center rounded-[1.5rem] mb-4 custom:block absolute right-5 z-[9] -mt-8 w-[150px] py-4 sm:block md:hidden lg:hidden xl:hidden 2xl:hidden">
                             <h2 className="text-4xl font-bold mb-4 text-black custom:text-2xl">12M +</h2>
                             <p className="text-base font-semibold text-gray-800 custom:text-[0.75rem]">Worldwide Product <br /> sale per year</p>
                         </div>
@@ -46,7 +49,7 @@ const Main = () => {
                             src={home}
                             alt="samsung_image"
                         />
-                        <div className="ml-10 mb-4 flex items-center gap-8 custom:gap-5 flex absolute -mt-[5.5rem] -left-5 z-10 sm:flex md:hidden lg:hidden xl:hidden 2xl:hidden">
+                        <div className="ml-10 mb-4 flex items-center gap-8 custom:gap-5 flex absolute -mt-[5.5rem] -left-5 sm:flex md:hidden lg:hidden xl:hidden 2xl:hidden">
                             <div className="bg-gray-200 w-[80px] py-[12px] rounded-[50%] flex justify-center custom:w-[50px] py-[8px]">
                                 <div className="bg-white w-[50px] py-[8px] rounded-[50%] flex justify-center order__btn custom:w-[30px] py-[4px]">
                                     <Link href="/post/order"><RiShoppingBagFill fontSize={24} color="#5a5a5a" /></Link>
@@ -81,10 +84,23 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-                <br /><br />
+
+                <br /><br /><br /><br />
 
                 {/* Collections */}
                 <Collections />
+
+                <br /><br /><br /><br />
+
+                {/* Brands */}
+                <Brands />
+
+                <br /><br /><br /><br />
+
+                {/* Reviews */}
+                <Reviews />
+
+                <br /><br /><br /><br />
 
             </div>
         </>
