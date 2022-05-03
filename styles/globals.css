@@ -105,3 +105,7 @@
   display: grid;
   place-items: center;
 }
+
+.add__product--input {
+  margin: 0 auto;
+}
