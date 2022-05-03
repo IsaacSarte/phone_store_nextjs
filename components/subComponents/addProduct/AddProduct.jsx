@@ -59,7 +59,7 @@ const AddProduct = ({ showModal, setShowModal }) => {
                 setError(err.response.data.data.error);
             })
     }
-e
+
     return (
         <div>
             {showModal ? (
