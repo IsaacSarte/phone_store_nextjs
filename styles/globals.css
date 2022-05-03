@@ -93,3 +93,15 @@
   top: 0;
   transform: rotateZ(180deg);
 }
+
+/* Products */
+.product__table {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.add__product__container {
+  background: rgba(0, 0, 0, 0.8);
+  display: grid;
+  place-items: center;
+}
